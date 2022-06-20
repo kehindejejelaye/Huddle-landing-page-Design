@@ -144,6 +144,19 @@ footer > section {
   margin: .5em auto;
   font-size: .75em;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials > i {
+  margin-right: 1.5em;
+  border: 1px solid hsl(0, 0%, 100%);
+  padding: 1em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
 @media (max-width: 1440px) {
   .hero img {
@@ -265,5 +278,8 @@ footer > section {
     margin: 1.5em 0;
     /* justify-content: flex-start; */
     align-items: flex-start;
+  }
+  footer:last-child p {
+    text-align: center;
   }
 }
